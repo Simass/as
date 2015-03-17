@@ -32,7 +32,8 @@
  */
 
 
-//                                              ====== FUN BOT SCRIPT  ======
+//   ====== FUN BOT SCRIPT  ======
+(function () {
 Array.prototype.Shift = function () { return Array.prototype.shift.call(this), this; };
 
 var Funbot = {};
@@ -1233,3 +1234,4 @@ if (window.location.hostname === "plug.dj") {
 } else {
     alert("This bot can only function at http://plug.dj/community");
 };
+}).call(this);
